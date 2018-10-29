@@ -494,4 +494,4 @@ if(!msg.guild.member(msg.author).hasPermission("MANAGE_GUILD")) return msg.reply
 });
 
 
-bot.login("NTAzOTYyMzM5MTkyNzMzNzI3.DrSdAg.ejzmkir570m2BUUamrrsUnQv4lE");
+bot.login(progress.env.TOKEN);
