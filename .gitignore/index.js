@@ -35,7 +35,7 @@ bot.on('message' , msg => {
         
         let args = msg.content.split(" ").slice(1);
 
-        if(!args[0]) return msg.channel.send("Tu doit indiquer le nombre de message a surpimer !")
+        if(!args[0]) return msg.channel.send("Tu doit indiquer le nombre de message a surpimer !!")
         msg.channel.bulkDelete(args[0]).then(() => {
                 msg.channel.send(`Les ${args[0]} ont bien été surpimer :grinning:`);
                 console.log("clear " + args[0])  
